@@ -4,6 +4,7 @@ import com.lesson.dao.CategoryDAO;
 import com.lesson.model.Category;
 import com.lesson.service.CategoryManager;
 import org.apache.log4j.Logger;
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +18,7 @@ public class CategoryManagerImpl implements CategoryManager {
     @Autowired
     CategoryDAO categoryDAO;
 
+    @Test
     public List<Category> getAllCategories() {
         return categoryDAO.getAllCategories();
     }
