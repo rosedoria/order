@@ -48,8 +48,6 @@ public class OrderEntryControllor {
         logger.info("mid = " + mid);
         logger.info("cid = " + cid);
         logger.info("useCookie = " + useCookie);
-        System.out.println(3/0);
-        System.out.println(0/3);
         //判断mid cid为空的情形
         if (mid == null || mid.equalsIgnoreCase("") || mid.equalsIgnoreCase("all")) {
             mid = "%";

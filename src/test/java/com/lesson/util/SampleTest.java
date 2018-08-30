@@ -52,4 +52,8 @@ public class SampleTest extends TestCase {
         Assert.assertTrue(false);
     }
 
+    public static void main(String[] args) {
+        System.out.println(Math.min(2.0, 4.0));
+    }
+
 }
