@@ -3,7 +3,7 @@ package com.lesson.util;
 import junit.framework.TestCase;
 import org.junit.*;
 
-public class Junit4TestCase extends TestCase {
+public class Junit4TestCase extends TestCase{
 
     @BeforeClass
     public static void setUpBeforeClass() {
